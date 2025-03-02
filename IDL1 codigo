@@ -25,6 +25,3 @@ def obtener_jefe(df1,valor):
     resultado1
     print("Jefe inmediato:",resultado1.iloc[0,4])
 
-    #Ahora la ejecucion
-valor = int(input("Ingrese un número: "))
-obtener_jefe(df1,valor)
